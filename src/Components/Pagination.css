@@ -1,0 +1,28 @@
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  outline: none;
+  border: 0px;
+  color: blue;
+}
+
+.disabled {
+  outline: none;
+  border: 0px;
+  color: grey;
+  cursor: not-allowed;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 2px;
+}
+
+.btn:hover {
+  color: blue;
+}
